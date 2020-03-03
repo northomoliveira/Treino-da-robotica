@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+
+    printf("Texto totalmente aleatório  ");
+    
+
+    return 0;
+}
+
+//aqui temos um comando muito simples de saída
