@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main(){
+
+    float BiUm, BiDois, BiTres, BiQuatro, Media;
+
+    printf("Digite sua nota do bimestre 1 ");
+    scanf("%f",&BiUm);
+
+    printf("Digite sua nota do bimestre 2 ");
+    scanf("%f",&BiDois);
+
+    printf("Digite sua nota do bimestre 3 ");
+    scanf("%f",&BiTres);
+
+    printf("Digite sua nota do bimestre 4 ");
+    scanf("%f",&BiQuatro);
+
+    Media = (BiUm+BiDois+BiTres+BiQuatro)/4;
+
+    printf("A media e igual a %f ",Media);
+
+    return 0;
+}
+
+// codigo que le uma media anual de um aluno
